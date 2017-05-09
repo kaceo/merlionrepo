@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="merlion.repo" name="Merlion" version="0.1.0" provider-name="mamborambo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Merlion">
+            <info compressed="false">https://raw.githubusercontent.com/kaceo/merlionrepo/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kaceo/merlionrepo/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kaceo/merlionrepo/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>get freeview tv channels from Singapore (SG)</summary>
+            <description>live channels from Mediacorp[CR]channels 5 8 U Okto and CNA[CR]Also free channels off Toggle[CR]and web channels</description>
+            <platform>all</platform>
+    </extension>
+</addon>
