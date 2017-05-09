@@ -1,0 +1,3 @@
+[submodule "plugin.video.exodust"]
+	path = plugin.video.exodust
+	url = https://github.com/kaceo/plugin.video.exodust
