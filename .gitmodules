@@ -4,3 +4,6 @@
 [submodule "plugin.video.sgtv"]
 	path = plugin.video.sgtv
 	url = https://github.com/kaceo/plugin.video.sgtv.git
+[submodule "plugin.video.sporetv"]
+	path = plugin.video.sporetv
+	url = https://github.com/kaceo/plugin.video.sporetv
