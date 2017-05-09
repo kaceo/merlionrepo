@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="merlion.repo" name="Merlion" version="0.1.0" provider-name="mamborambo">
+    <addon id="merlion.repo" name="Merlion" version="0.1.2" provider-name="mamborambo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
