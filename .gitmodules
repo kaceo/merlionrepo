@@ -7,3 +7,6 @@
 [submodule "plugin.video.sporetv"]
 	path = plugin.video.sporetv
 	url = https://github.com/kaceo/plugin.video.sporetv
+[submodule "plugin.audio.sporefm"]
+	path = plugin.audio.sporefm
+	url = https://github.com/kaceo/plugin.audio.sporefm
