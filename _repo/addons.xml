@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="merlion.repo" name="Merlion" version="0.1.4" provider-name="mamborambo">
+    <addon id="merlion.repo" name="Merlion" version="0.1.5" provider-name="mamborambo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -15,6 +15,29 @@
             <description>live channels from Mediacorp[CR]channels 5 8 U Okto and CNA[CR]Also free channels off Toggle[CR]and web channels</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.audio.sporefm"
+       name="Singapore Radio"
+       version="1.0.0"
+       provider-name="mamborambo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="en">Singapore Radio</summary>
+    <description lang="en">Listen Online to Singapore Radio Channels. Class 95, Kiss 92, FM 987, Yes 933, Warna, Ria, and more.
+	</description>
+    <platform>all</platform>
+	<language>en</language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>/</website>
+    <email></email>
+    <source>http://github.com/kaceo/plugin.audio.sporefm</source>
+	</extension>
 </addon>
 
 <addon id="plugin.video.sporetv"
